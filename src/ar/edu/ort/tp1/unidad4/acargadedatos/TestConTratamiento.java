@@ -10,7 +10,7 @@ public class TestConTratamiento {
 		int numero = -1;
 		try {
 		   System.out.println("El numero vale " + numero);
-		   System.out.print("ingresá un número: ");
+		   System.out.print("ingrese un numero: ");
 		   numero = Integer.parseInt(input.nextLine());
 		} catch (NumberFormatException nfe) {
 		   System.out.println("Hubo un error en la carga del numero: " + nfe.getMessage());
